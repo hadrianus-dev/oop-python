@@ -15,3 +15,9 @@ class MyClass:
     def method_one(self, c):
         return self.a + self.b + c
     
+# instance of the class
+my_class = MyClass(1, 2)
+# call the method of class
+result = my_class.method_one(3)
+print(f'Result: {result}')
+    
